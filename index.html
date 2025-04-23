@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapika Amanda | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #fff5f5;
+      color: #333;
+    }
+    header {
+      background: #800000;
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #a52a2a;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      font-weight: 600;
+    }
+    nav a:hover {
+      background: #b22222;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #800000;
+      text-align: center;
+    }
+    .cloud-box, .box-style {
+      background: #ffe6e6;
+      border-radius: 50px 20px 50px 20px;
+      padding: 2rem;
+      text-align: justify;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border: 2px dashed #ff9999;
+      margin-bottom: 2rem;
+    }
+    .edu-entry {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .edu-entry img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      margin-bottom: 1rem;
+    }
+    .edu-entry h3 {
+      color: #800000;
+      margin-bottom: 0.5rem;
+    }
+    .edu-entry p {
+      color: #444;
+    }
+    .skill-photo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+      justify-items: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .skill-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .skill-photo img {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .skill-photo img:hover {
+      transform: scale(1.1);
+    }
+    .skill-label {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #555;
+    }
+    footer {
+      background: #800000;
+      text-align: center;
+      padding: 1rem;
+      color: white;
+      margin-top: 2rem;
+    }
+    .boneka {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      width: 100px;
+      animation: mengambang 3s ease-in-out infinite;
+      z-index: 1000;
+    }
+    @keyframes mengambang {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Foto Rapika.jpeg" alt="Foto Profil Rapika">
+    <h1>Rapika Amanda ✨</h1>
+    <p>Code, Coffee & Creative Vibes 🍓💻</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#pendidikan">Pendidikan</a>
+    <a href="#keahlian">Keahlian</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="tentang">
+    <h2>Tentang Aku</h2>
+    <div class="cloud-box">
+      <p>Halo! Aku Rapika Amanda, mahasiswi semester 4 jurusan Sistem Informasi di STMIK Dharmapala Riau. Lahir di Jambi dan tinggal di Pekanbaru. Aku mencintai dunia teknologi dan sangat antusias belajar pemrograman web.</p>
+      <p>Selain belajar, aku suka badminton, memasak, ngemil manis sambil tidur 😴🍭, dan menikmati desain kreatif. Mata kuliah favoritku tentu yang berhubungan dengan komputer dan teknologi!</p>
+      <p>Aku senang mengekspresikan diri lewat proyek-proyek kecil, baik itu dalam bentuk desain, coding, maupun eksperimen dengan ide-ide kreatif. Dunia IT memberiku ruang untuk terus berkembang dan bereksplorasi tanpa batas.</p>
+      <p>Aku percaya bahwa setiap orang punya potensi besar jika diberi kesempatan dan lingkungan yang mendukung. Karena itu, aku senang berkolaborasi dalam tim dan suka berbagi ilmu dengan teman-teman.</p>
+      <p>Aku juga punya prinsip bahwa kegagalan bukan akhir, melainkan awal dari pelajaran baru. Setiap kesalahan adalah kesempatan untuk tumbuh dan jadi versi diri yang lebih baik.</p>
+    </div>
+  </section>
+
+  <section id="pendidikan">
+    <h2>Riwayat Pendidikan</h2>
+    <div class="box-style">
+      <div class="edu-entry">
+        <h3>SD & SMP</h3>
+        <img src="Foto smp.jpeg" alt="SD dan SMP">
+        <p>SDN 234/IX Sungai Aur<br>MTS Pondok Pesantren Al Hasanah, Ujung Batu</p>
+      </div>
+      <div class="edu-entry">
+        <h3>SMA</h3>
+        <img src="foto sma.jpeg" alt="SMA">
+        <p>MA Pondok Pesantren Al Hasanah, Ujung Batu</p>
+      </div>
+      <div class="edu-entry">
+        <h3>Kuliah</h3>
+        <img src="foto kuliah.jpeg" alt="Kuliah">
+        <p>STMIK Dharmapala Riau - Sistem Informasi</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="keahlian">
+    <h2>Keahlian</h2>
+    <div class="box-style">
+      <div class="skill-photo">
+        <div class="skill-item">
+          <img src="edit vidio.jpg" alt="Edit Foto & Video">
+          <div class="skill-label">Edit Foto & Video</div>
+        </div>
+        <div class="skill-item">
+          <img src="memasak.jpg" alt="Memasak">
+          <div class="skill-label">Memasak</div>
+        </div>
+        <div class="skill-item">
+          <img src="memainkan music.jpg" alt="Alat Musik">
+          <div class="skill-label">Alat Musik</div>
+        </div>
+        <div class="skill-item">
+          <img src="pemecahan masalah.jpeg" alt="Problem Solving">
+          <div class="skill-label">Problem Solving</div>
+        </div>
+        <div class="skill-item">
+          <img src="html.jpg" alt="Coding Dasar">
+          <div class="skill-label">Coding (HTML, CSS, JS)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: rapika@example.com</p>
+    <p>Instagram: @rapikaamanda</p>
+    <p>GitHub: github.com/rapika</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Rapika Amanda. Dibuat dengan cinta dan semangat belajar 💖</p>
+  </footer>
+
+  <img class="boneka" src="https://media.giphy.com/media/kbRbLZKXyZGcgdVDzZ/giphy.gif" alt="Boneka Lucu">
+</body>
+</html>
